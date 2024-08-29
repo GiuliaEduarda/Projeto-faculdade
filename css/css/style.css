@@ -9,7 +9,9 @@ body{
     linear-gradient(80deg, #638C08, #aa74f5 );
 }
 
-
+    .card{
+        border: 2px red solid;
+    }
 
     #button{
         border-radius: 5px;
@@ -35,7 +37,8 @@ body{
     }
    
     #com{
-        background-color: #D9D9D9;
+        background-color: #e3ffde;
+        border-radius: 0px 10px 10px 0px;
     }
     #listou{
         font-size: 4em;
