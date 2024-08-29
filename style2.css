@@ -1,0 +1,74 @@
+body{
+    height: 100vh;
+    
+    background:  url('../imagens/ruido.png'),
+    linear-gradient(100deg, #638C08, #aa74f5 );
+}
+
+#container{
+    background: #D9D9D9;
+}
+    #button{
+        border-radius: 5px;
+        color: black;
+        background-color: #638C08;
+        border: 1px black solid;
+        box-shadow: 1px 1px 4px;
+    }
+    #buttonlogin{
+        background: #638C08;
+       height: 60px;
+       box-shadow: 1px 1px 4px;
+       
+        
+    }
+    p{
+        font-size: 1.2em;
+    }
+    #form2Example11, #form2Example22{
+        height: 60px;
+        box-shadow: 1px 1px 4px;
+
+    }
+   
+    
+    #listou{
+        font-size: 4em;
+        font-weight: 800px;
+        font-family: "Open Sans";
+        color:#638C08 ;
+        text-shadow: 3px 3px 4px ;
+    }
+   
+    #sualista{
+        
+        color: #638C08 ;        
+    }
+
+    
+
+
+
+
+
+
+    /*media queries*/
+
+
+
+    /*max width*/
+
+    @media (max-width: 768px) {
+     
+    }
+    
+    @media (max-width: 991.98px) { 
+      
+    }
+     /*min width*/
+     
+     @media (min-width: 770px) {
+        #logoblock{
+            display: none;
+        }
+    }
