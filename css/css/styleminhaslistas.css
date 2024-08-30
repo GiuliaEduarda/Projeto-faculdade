@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+   
 }
 .modal{
     width: 325px;
@@ -78,7 +78,50 @@ body{
     border-radius: 50%;
     text-decoration: none;
 }
+#list{
+    width: 45vh;
+}
+#list2{
+    width: 90%;
+    margin: 20px 10px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #74A60A;
+    box-shadow: 2px 2px 5px black;
+}
+.list3{
 
+}
+.bg{
+    
+    width: 75%;
+    height: 70px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px black;
+
+}
+.bg:hover{
+    text-decoration: none;
+}
+.text-truncate{
+    font-size: 1.3em;
+    padding: 15px;
+    color: #F4FFDB;
+    text-shadow: 2px 1px 5px black;
+}
+
+#buttoncriar{
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    position: fixed;
+    bottom: 60px;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -88,10 +131,11 @@ body{
     }
 
 
-    #carousel-indicadores{
-    
-        width: auto;
-         align-items: center;
-         justify-content: center;
-     }
+   
+
+
+
+     #list{
+        width: 90vh;
+    }
     }
