@@ -1,0 +1,75 @@
+body{
+    overflow: hidden;
+}
+.modal{
+    width: 325px;
+    height: 100vh;
+    
+   
+}
+.modal-dialog{
+    
+
+}
+.modal-content{
+    width: 325px;
+    
+   
+    
+}
+.modal-header{
+    height: 90px;
+    padding: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F2AC;
+    
+}
+.modal-body{
+    background-color: #E3F2AC;
+}
+.ho{
+   
+   margin-top: auto;
+    font-size: 2em;
+    padding: 10px;
+    
+}
+.modal-line a{
+    color: black;
+}
+.model-line a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.fa-solid{
+    font-size: 50px;
+}
+.row p{
+    font-size: 1.3em;
+}
+
+
+#xis{
+    font-size: 3em;
+}
+
+#conta{
+   
+}
+#conta2{
+    width: 80%;
+    align-items: start;
+    justify-content: start;
+    margin-left: 2px;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .mobile-hide{ display: none !important; }
+    }
